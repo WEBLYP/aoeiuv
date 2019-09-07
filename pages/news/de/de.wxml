@@ -1,0 +1,5 @@
+<!--pages/news/de/de.wxml-->
+<!-- <web-view src='{{desrc}}'></web-view> -->
+<view>粘贴到浏览器后才能看哦</view>
+{{desrc}}
+<button catchtap="copy" data-url='{{desrc}}'>点击复制网址</button>

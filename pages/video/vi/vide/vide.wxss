@@ -1,0 +1,15 @@
+/* pages/video/vi/vide/vide.wxss */
+.vide{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top
+}
+.son{
+  width: 50%;
+  padding: 10rpx;
+  box-sizing: border-box;
+  font-size: 32rpx
+}
+video{
+  width: 100%;
+}

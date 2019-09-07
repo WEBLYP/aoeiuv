@@ -1,0 +1,50 @@
+/* pages/duanzi/duanzi.wxss */
+.fresh{
+  background: #ff0000;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10rpx 0;
+  left: 0
+}
+.results {
+  display: flex;
+  align-items: top;
+  padding: 20rpx;
+  position: relative;
+}
+
+.simg {
+  width: 20%;
+}
+
+.simg image {
+  width: 100%;
+}
+
+
+.info {
+  width: 80%;
+  font-size: 32rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stitle {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10rpx;
+}
+
+.sauthor {
+  display: block;
+  padding-left: 10rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

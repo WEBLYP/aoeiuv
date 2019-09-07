@@ -1,0 +1,96 @@
+/* pages/menu/menu.wxss */
+
+.input {
+  padding: 20rpx 20rpx;
+  background-color: #7bbfec;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 9;
+}
+
+input {
+  font-size: 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+
+.results {
+  display: flex;
+  align-items: top;
+  padding: 20rpx;
+  position: relative;
+}
+
+.simg {
+  width: 20%;
+}
+
+.simg image {
+  width: 100%;
+}
+
+.info {
+  width: 80%;
+  font-size: 32rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stitle {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10rpx;
+}
+
+.sauthor {
+  display: block;
+  padding-left: 10rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+audio {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+}
+
+.center {
+  padding: 120rpx 0 180rpx 0;
+  position: relative;
+}
+
+.poplist {
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.poplist image {
+  width: 50%;
+}
+
+.see {
+  position: fixed;
+  right: 10rpx;
+  font-size: 32rpx;
+  width: 68rpx;
+  border: 2rpx solid #7bbfec;
+  padding: 5rpx 10rpx;
+  color: #7bbfec;
+  bottom: 200rpx;
+  z-index: 99;
+  background: #fff
+}

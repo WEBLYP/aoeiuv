@@ -1,0 +1,7 @@
+<!--pages/video/vi/vide/vide.wxml-->
+<view class="vide">
+  <view class="son" wx:for='{{res}}' wx:if='{{item.data.id>0&&item.data.playUrl}}' wx:key='{{item.data.id}}'>
+    <video data-index='{{index}}' bindended='next' bindplay="play" id='myVideo{{item.data.id}}' object-fit='cover' src="{{item.data.playUrl}}" controls="true"></video>
+    <text>{{item.data.title}}</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+/* pages/video/video.wxss */
+.type{
+  display: flex;
+  flex-wrap: wrap
+}
+text{
+  width: 33.3%;
+  text-align: center;
+  letter-spacing: 2rpx;
+  font-size: 32rpx;
+  padding: 30rpx 0;
+  margin: 10rpx 0
+}

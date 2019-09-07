@@ -1,0 +1,15 @@
+<!--pages/duanzi/duanzi.wxml-->
+<view class="fresh" wx:if='{{fresh}}'>加载中。。。</view>
+<view class="results" wx:for='{{sresults}}' wx:key='{{item.down}}' data-url='{{item.sid}}' bindtap="play">
+  <view class="simg">
+    <image mode='widthFix' src="{{item.header}}"></image>
+  </view>
+  <view class="info">
+    <text class="stitle">{{item.text}}</text>
+    <text class="sauthor">作者：{{item.name}}</text>
+  </view>
+</view>
+
+<view class='home' bindtap='backhome'>
+  <image src='/img/icon9.png'></image>
+</view>

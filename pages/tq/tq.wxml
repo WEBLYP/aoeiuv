@@ -1,0 +1,21 @@
+<!--pages/tq/tq.wxml-->
+<view class="input">
+  <input placeholder="城市搜索" type="search" bindinput="write" value="{{city}}" bindconfirm='search'></input>
+</view>
+
+<view class="center">
+  <view class="list">城市：{{scity}}</view>
+  <view class="list">感冒指数：{{ganmao}}</view>
+  <view class="list">平均气温：{{wendu}}℃</view>
+
+  <view wx:for='{{smore}}' wx:key='{{item.date}}' class='list {{index%2?"":"black"}}'>
+     <view>日期：{{item.date}}</view>
+     <view>风力：{{item.fengli}}</view>
+     <view>{{item.low}}</view>
+     <view>{{item.high}}</view>
+     <view>{{item.type}}</view>
+  </view>
+
+</view>
+
+<text class="see" wx:if='{{see}}' bindtap="close">本地天气</text>

@@ -1,0 +1,11 @@
+<!--pages/duanzi/dz/dz.wxml-->
+<view class="title">{{sj.text}}</view>
+<view class="auther">{{sj.name}}</view>
+<view class="time">{{sj.passtime}}</view>
+<video wx:if='{{sj.video}}' src="{{sj.video}}"></video>
+<image mode="widthFix" wx:if='{{sj.images}}' src="{{sj.images}}"></image>
+<image mode="widthFix" wx:if='{{sj.thumbnail}}' src="{{sj.thumbnail}}"></image>
+<button class='share' open-type="share" app-parameter="wechat" binderror="launchAppError" bindtap='share'>分享</button>
+<view class='home' bindtap='backhome'>
+  <image src='/img/icon9.png'></image>
+</view>

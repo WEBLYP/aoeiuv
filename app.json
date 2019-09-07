@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/all/all",
+    "pages/xingxing/xingxing",
+    "pages/video/video",
+    "pages/tq/tq",
+    "pages/duanzi/duanzi",
+    "pages/music/music",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/duanzi/dz/dz",
+    "pages/news/news",
+    "pages/news/de/de",
+    "pages/video/vi/vi",
+    "pages/video/vi/vide/vide"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "āōēīūǖ",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于本地天气，要点允许哦~~~"
+    }
+  }
+}

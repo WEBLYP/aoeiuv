@@ -1,0 +1,24 @@
+/* pages/duanzi/dz/dz.wxss */
+video{
+  width: 100%
+}
+image{
+  width: 100%
+}
+.title{
+  text-align: center;
+  font-size: 36rpx;
+  padding: 10rpx;
+}
+.auther{
+  text-align: right;
+  font-size: 30rpx;
+  padding: 10rpx;
+  padding-right: 20rpx;
+}
+.time{
+  text-align: right;
+  font-size: 24rpx;
+  padding: 10rpx;
+  padding-right: 20rpx;
+}

@@ -1,0 +1,11 @@
+<!--pages/news/news.wxml-->
+<view class="fresh" wx:if='{{fresh}}'>加载中。。。</view>
+<view class="results" wx:for='{{sresults}}' wx:key='{{item.down}}' data-src='{{item.path}}' bindtap="play">
+  <view class="simg">
+    <image mode='widthFix' src="{{item.image}}"></image>
+  </view>
+  <view class="info">
+    <text class="stitle">{{item.title}}</text>
+    <text class="sauthor">{{item.passtime}}</text>
+  </view>
+</view>

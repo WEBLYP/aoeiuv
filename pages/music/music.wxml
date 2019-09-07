@@ -1,0 +1,43 @@
+<!--pages/menu/menu.wxml-->
+<view class="input">
+  <input placeholder="音乐搜索" type="search" bindinput="write" value="{{sname}}" bindconfirm='search'></input>
+</view>
+
+<view class="center">
+
+  <view wx:if='{{see}}' class="results" wx:for='{{sresults}}' wx:key='{{item.title}}' data-url='{{item}}' bindtap="play">
+    <view class="simg">
+      <image mode='widthFix' src="{{item.pic}}"></image>
+    </view>
+    <view class="info">
+      <text class="stitle">{{item.title}}</text>
+      <text class="sauthor">{{item.author}}</text>
+    </view>
+  </view>
+
+  <text class="see" wx:if='{{see}}' bindtap="close">关闭搜索</text>
+
+  <view wx:for='{{spop}}' wx:key='{{item.name}}' bindtap="popclick">
+    <view class="poplist">
+      <image mode='widthFix' src="{{item.bg_pic}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+
+    <view class="results" wx:for='{{item.content}}' wx:key='{{item.title}}' data-title='{{item.title}}' bindtap="search">
+      <view class="simg">
+        <image mode='widthFix' src="{{item.pic_small}}"></image>
+      </view>
+      <view class="info">
+        <text class="stitle">{{item.title}}</text>
+        <text class="sauthor">{{item.author}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<audio poster="{{music.poster}}" name="{{music.name}}" author="{{music.author}}" src="{{music.src}}" id="myAudio" controls loop></audio>
+
+<view class='home' bindtap='backhome'>
+  <image src='/img/icon9.png'></image>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/all/all.wxml-->
+<view class="all">
+  <image catchtap="duanzi" src="/img/duanzi.jpg"></image>
+  <image catchtap="music" src="/img/music.jpg"></image>
+  <image catchtap="video" src="/img/video.jpg"></image>
+  <image catchtap="news" src="/img/news.jpeg"></image>
+  <image catchtap="tq" src="/img/tq.jpg"></image>
+</view>
+
+<view class='' style='width:100vw;height: 100vh;background:#000;'>
+  <canvas canvas-id="canvas"></canvas>
+</view>

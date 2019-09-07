@@ -1,0 +1,4 @@
+<!--pages/video/video.wxml-->
+<view class="type">
+  <text id='{{item.id}}' data-title='{{item.name}}' catchtap="go" wx:for='{{types}}' wx:key='{{item.id}}' wx:if='{{item.id>0}}'>{{item.name}}</text>
+</view>

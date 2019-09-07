@@ -1,0 +1,45 @@
+/* pages/tq/tq.wxss */
+
+.input {
+  padding: 20rpx 20rpx;
+  background-color: #7bbfec;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 9;
+}
+
+input {
+  font-size: 30rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+
+.center {
+  padding: 120rpx 0 180rpx 0;
+  position: relative;
+}
+
+.list{
+  padding: 10rpx;
+  font-size: 32rpx
+}
+
+.black{
+  background: #f5f5f5
+}
+
+.see {
+  position: fixed;
+  right: 10rpx;
+  font-size: 32rpx;
+  width: 68rpx;
+  border: 2rpx solid #7bbfec;
+  padding: 5rpx 10rpx;
+  color: #7bbfec;
+  bottom: 200rpx;
+  z-index: 99;
+  background: #fff
+}
